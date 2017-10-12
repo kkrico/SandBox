@@ -11,7 +11,6 @@ namespace WebFormsDemoII.Exemplo01
 
         protected void OnClick(object sender, EventArgs e)
         {
-            lblNome.Text = txtNome.Text;
         }
 
         protected void OnClickButton2(object sender, EventArgs e)

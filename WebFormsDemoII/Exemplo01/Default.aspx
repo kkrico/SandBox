@@ -1,15 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebFormsDemoII.Exemplo01.Default" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="header" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
 
-    <asp:Label runat="server" ID="lblNome"></asp:Label>
-    <br />
-    <asp:TextBox runat="server" ID="txtNome"></asp:TextBox>
-    <br />
-    <asp:Button runat="server" OnClick="OnClick" Text="Enviar" />
-    
-    
-    <asp:Button runat="server" OnClick="OnClickButton2"/>
+    <div class="starter-template">
+        <h1>Bootstrap starter template</h1>
+        <p class="lead">
+            Um exemplo como blog
+        </p>
+    </div>
 </asp:Content>

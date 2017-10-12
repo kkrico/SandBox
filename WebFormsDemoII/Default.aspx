@@ -1,18 +1,13 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebFormsDemoII.Default" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-            <h1>Tatiana</h1>
-
-           
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebFormsDemoII.Default1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="header" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Bem vindo ao WebForms Demo</h1>
         </div>
-    </form>
-</body>
-</html>
+        <div class="col-sm-12">
+            <h5>Use o menu acima para navegar</h5>
+        </div>
+    </div>
+</asp:Content>

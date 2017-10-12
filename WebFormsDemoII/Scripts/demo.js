@@ -1,3 +1,0 @@
-﻿
-debugger;
-alert("Hello World");
